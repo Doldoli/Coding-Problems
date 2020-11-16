@@ -11,7 +11,7 @@ array = ['Python', 'Java', 'R', 'C#', 'Typescript', 'C++', 'Golang', 'PHP', 'Jav
 nums_of_elements = 5
 
 
-# Solution 1: O(n) time complexity, O(1) space complexity
+# Solution 1: O(n^2) time complexity, O(1) space complexity
 def solution(array: List[str], n: int) -> List[str]:
     for i in range(0, len(array), n):
         yield array[i:i + n]
