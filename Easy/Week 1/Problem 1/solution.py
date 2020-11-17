@@ -17,7 +17,7 @@ def solution(array: List[str], n: int) -> List[str]:
         yield array[i:i + n]
 
 
-# Solution 2: O(n) time complexity, O(1) space complexity
+# Solution 2: O(n^2) time complexity, O(1) space complexity
 solution_2 = [array[i:i + nums_of_elements] for i in range(0, len(array), nums_of_elements)]
 
 # Example Usage
