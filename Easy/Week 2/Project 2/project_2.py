@@ -2,9 +2,8 @@
 Week 2 - Project 2
 @author: André Gilbert, andre.gilbert.77110@gmail.com
 
-Create a rock raper scissors mini-game. 
-Implement a random function to generate rock, paper, or scissors. 
-Implement a result function to declare the winner of the round.
-Implement a scorekeeper to keep track of the score.
-A game is won when the match score is: 2-0 or  2-1
+The Mad Libs Generator design is such that it will ask users to enter a series of inputs 
+that will be considered as a Mad Lib. Mab lib is one of the python projects for beginners. 
+The input could be anything, an adjective, a noun, a pronoun, etc. Once all the inputs are entered, 
+the application will take the data and arrange the inputs into a story template form.
 '''
