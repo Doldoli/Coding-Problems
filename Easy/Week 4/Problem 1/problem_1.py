@@ -7,6 +7,6 @@ return the length of the last word in the string. If the last word does not exis
 '''
 
 # input = "Hello World"
-# output: 5
+# output = 5
 
 s = "Good morning"

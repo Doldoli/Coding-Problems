@@ -13,6 +13,7 @@ def solution(s: str) -> bool:
     return s == s[::-1]
 
 
+# Example usage
 if __name__ == "__main__":
     string_1 = "Hello"
     string_2 = "Race a car"

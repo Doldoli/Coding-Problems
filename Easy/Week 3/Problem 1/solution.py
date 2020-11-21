@@ -23,6 +23,7 @@ def solution(prices: List[int]) -> int:
     return output
 
 
+# Example usage
 if __name__ == "__main__":
     prices = [7, 4, 9, 10, 3, 8, 1, 6, 1, 2, 8, 1, 4, 2, 7, 1, 3, 5]
     result = solution(prices)

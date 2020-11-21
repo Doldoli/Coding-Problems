@@ -18,6 +18,7 @@ def solution(array: List[int]) -> List[int]:
     return array
 
 
+# Example usage
 if __name__ == "__main__":
     array = [140, 124, -89]
     result = solution(array)

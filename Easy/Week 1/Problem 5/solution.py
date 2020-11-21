@@ -11,7 +11,7 @@ from typing import List
 array = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 10, 10, 3453, 3453, 1]
 
 
-# Solution 1: 0(n) time complexity, O(n) space complexity
+# 0(n) time complexity, O(n) space complexity
 def solution(array: List[int]) -> List[int]:
     res = []
     for i in array:
@@ -20,7 +20,7 @@ def solution(array: List[int]) -> List[int]:
     return res
 
 
-# Solution 2: O(n) time complexity, O(n) space complexity
+# O(n) time complexity, O(n) space complexity
 solution_2 = list(set(array))
 
 # Example usage
