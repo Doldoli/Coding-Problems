@@ -26,7 +26,7 @@ def solution_2(array: List[int]) -> int:
 
 
 # O(n) time complexity, O(1) time complexity
-def solution_3(array):
+def solution_3(array: List[int]) -> int:
     a = 0
     for i in array:
         a ^= i
