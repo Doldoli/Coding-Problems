@@ -17,6 +17,7 @@ def solution_1(array: List[int]) -> int:
     return count
 
 
+# O(n) time complexity, O(1) space complexity
 def solution_2(array: List[int]) -> int:
     return sum(map(lambda num: 1 - len(str(num)) % 2, array))
 
