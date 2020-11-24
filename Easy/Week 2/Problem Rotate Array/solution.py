@@ -27,7 +27,7 @@ def solution(array: List[int], d: int, n: int) -> None:
         array[j] = temp
 
 
-# GDC function returns
+# greatest common divisor
 def gcd(a: int, b: int) -> int:
     if b == 0:
         return a
