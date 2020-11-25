@@ -7,9 +7,11 @@ But for multiples of three it should output “Fizz” instead of the number and
 For numbers which are multiples of both three and five output “FizzBuzz”.
 '''
 
+from typing import List
+
 
 # O(n) time complexity, O(n) space complexity
-def solution(n: int) -> None:
+def solution(n: int) -> List[int]:
     ans = []
 
     for i in range(1, n + 1):
